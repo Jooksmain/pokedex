@@ -10,15 +10,12 @@
     background-color: #bff9ff;
     overflow-y: scroll;
     overflow-x: hidden;
-    border-radius: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(85, 85, 85, 0.5);
 }
 
 .poke-list::-webkit-scrollbar {
     width: 10px;
-}
-
-.poke-list::-webkit-scrollbar-track {
-    background-color: #f1f1f1;
 }
 
 .poke-list::-webkit-scrollbar-thumb {
@@ -27,5 +24,5 @@
 }
 
 .poke-list::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
+    background-color: transparent;
 }

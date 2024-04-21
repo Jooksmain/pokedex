@@ -2,7 +2,7 @@ class Pokemon {
     constructor(data) {
         this.id = data.id
         this.name = data.name
-        this.sprite = data.sprites.front_default
+        this.sprite = data.sprites.other['official-artwork'].front_default;
         this.type = data.types.map(type => type.type.name).join(", ");
         this.height = data.height
         this.weight = data.weight

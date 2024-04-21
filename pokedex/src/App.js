@@ -8,13 +8,13 @@ class App extends Component {
     super()
     this.state = {
       pokemon: {
-        id: 1,
-        name: "bulbasaur",
-        height: 7,
-        weight: 69,
-        type: "grass, poison",
-        abilities: ["overgrow, ", "chlorophyll"],
-        sprite: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+      id: 1,
+      name: "bulbasaur",
+      height: 7,
+      weight: 69,
+      type: "grass, poison",
+      abilities: ["overgrow, ", "chlorophyll"],
+      sprite: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
       }
     }
 
