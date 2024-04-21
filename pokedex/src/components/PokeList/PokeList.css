@@ -1,8 +1,20 @@
+.next-button,
+.previous-button {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    align-self: flex-start; /* Change align-content to align-self */
+    margin-top: 0; /* Add margin-top: 0; to move the buttons to the top */
+}
+
 .poke-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start; /* Change align-items to flex-start */
     width: 50%;
     height: 80%;
     padding: 10px;
@@ -12,24 +24,4 @@
     overflow-x: hidden;
     border-radius: 6px;
     border: 1px solid rgba(85, 85, 85, 0.5);
-}
-
-.poke-list::-webkit-scrollbar {
-    width: 10px;
-}
-
-.poke-list::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 4px;
-}
-
-.next-button,
-.previous-button {
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    align-content: top;
 }
