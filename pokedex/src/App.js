@@ -3,9 +3,9 @@ import './App.css'
 import { PokeList, DetailView, Pokemon } from './components'
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.js"
-import About from "./pages/About.js"
-import Layout from "./pages/Layout.js"
+import Home from "./containers/Home.js"
+import About from "./containers/About.js"
+import Layout from "./containers/Layout.js"
 
 
 export default function App() {
