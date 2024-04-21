@@ -2,7 +2,7 @@ import React from 'react'
 import './DetailView.css'
 
 const DetailView = ({ pokemon }) => {
-    const { id, name, sprite, type, height, weight } = pokemon
+    const { id, name, sprite, type, height, weight, abilities} = pokemon
     return (
         <section className="detail-view">
             <img src={sprite} className="sprite-image" alt="sprite"/>
@@ -11,6 +11,7 @@ const DetailView = ({ pokemon }) => {
                 <p className="data-char">Type: {type} </p>
                 <p className="data-char">Height: {height} </p>
                 <p className="data-char">Weight: {weight} </p>
+                <p className="data-char">Abilities: {abilities} </p>
             </div>
         </section>
     )

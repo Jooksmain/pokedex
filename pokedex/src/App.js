@@ -12,6 +12,7 @@ class App extends Component {
         height: 7,
         weight: 69,
         type: "grass",
+        abilities: ["overgrow, ", "chlorophyll"],
         sprite: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
       }
     }

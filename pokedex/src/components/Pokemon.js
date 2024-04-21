@@ -6,6 +6,7 @@ class Pokemon {
         this.type = data.types[0].type.name
         this.height = data.height
         this.weight = data.weight
+        this.abilities = data.abilities.map(ability => ability.ability.name).join(", ");
     }
 }
 
