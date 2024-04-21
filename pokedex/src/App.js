@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
+
 import './App.css'
-import { PokeList, DetailView, Pokemon } from './components'
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./containers/Home.js"
