@@ -1,7 +1,30 @@
 import React, { Component } from 'react'
 import './App.css'
 import { PokeList, DetailView, Pokemon } from './components'
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home.js"
+import About from "./pages/About.js"
+import Layout from "./pages/Layout.js"
 
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+
+/*
 class App extends Component {
   constructor() {
     super()
@@ -41,3 +64,4 @@ class App extends Component {
 }
 
 export default App;
+*/
