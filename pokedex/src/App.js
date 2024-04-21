@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css'
 import { PokeList, DetailView, Pokemon } from './components'
 
+
 class App extends Component {
   constructor() {
     super()
@@ -11,7 +12,7 @@ class App extends Component {
         name: "bulbasaur",
         height: 7,
         weight: 69,
-        type: "grass",
+        type: "grass, poison",
         abilities: ["overgrow, ", "chlorophyll"],
         sprite: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
       }
